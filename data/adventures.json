@@ -1,0 +1,44 @@
+[
+	{
+		title: 'Bolton Valley Nordic Backcountry',
+		lat: 44.42099,
+		lng: -72.8525117,
+		activity: 0,
+		description: 'Awesome ski resort in Vermont with 100km of ungroomed backcountry terrain.'
+	},
+	{
+		title: 'Charlevoix Traverse',
+		lat: 47.601,
+		lng: -70.536,
+		activity: 0,
+		description: 'A 100km hut to hut ski tour in the rugged Charlevoix region.'
+	},
+	{
+		title: 'Cascade Mountain Hike',
+		lat: 44.219,
+		lng: -73.862,
+		activity: 1,
+		description: 'A classic Adirondack hike. Close to the road, lots of people, beautiful views.'
+	},
+	{
+		title: 'Montagne D\'Argent',
+		lat: 46.132,
+		long: -74.677,
+		activity: 2,
+		description: 'Beautiful climbing area in the Laurentians. '
+	},
+	{
+		title: 'Calabogie',
+		lat: 45.273,
+		long: -76.811,
+		activity: 2,
+		description: 'Local climbing crag.'
+	},
+	{
+		title: 'Lusk Caves',
+		lat: 45.6175,
+		long: -76.013,
+		activity: 1,
+		description: 'A Gatineau park hike with underground caves. Bring a headlamp and a towel.'
+	}
+]
