@@ -1,5 +1,6 @@
 var map, infowindow;
-const dataUrl = 'https://rawgit.com/srykov/AdventureMap/master/adventures.json';
+//const dataUrl = 'https://rawgit.com/srykov/AdventureMap/master/adventures.json';
+const dataUrl = 'https://rawgit.com/srykov/e2c1a51c29d2f16dea77157f3fa73707/raw/027305baa18e8f5f1929dd1b1511984465382863/gistfile1.txt';
 
 //parse JSON results and return a matching array of Adventure objects
 function getAdventures(data){
@@ -18,7 +19,7 @@ function createAdventureMarker(adventure){
 		title: adventure.title,
 		icon: adventure.getIcon(),
 		map: map,
-		animation: google.maps.Animation.BOUNCE
+		animation: google.maps.Animation.DROP
 	});
 
 	marker.addListener('click', function() {
