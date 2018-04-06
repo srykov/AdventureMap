@@ -29,7 +29,7 @@ function createAdventureMarker(adventure){
 function initMap() {
 	map = new google.maps.Map(document.getElementById('map'), {
   		center: {lat: 57.454166, lng: -96.921118},
-  		zoom: 6
+  		zoom: 4
 	});
 
   	infowindow = new google.maps.InfoWindow({

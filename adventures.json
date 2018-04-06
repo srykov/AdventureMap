@@ -10,16 +10,30 @@
 		{
 			"title": "Snake River",
 			"lat": 64.725833,
-			"long": -132.778889
+			"long": -132.778889,
 			"activity": 4,
 			"description": "15 day canoe trip with plenty of hiking in the remote Peel River watershed."
 		},
 		{
 			"title": "Mountain River",
 			"lat": 64.265167,
-			"long": -130.489278
+			"long": -130.489278,
 			"activity": 4,
 			"description": "16 days on the Mountain River in NWT. \nAlpine scenery and class 1 - 3 whitewater. Lots of wildlife."
+		},
+		{
+			"title": "Mother's Day Buttress",
+			"lat": 51.228333,
+			"long": -115.563333,
+			"activity": 2,
+			"description": "A multi-pitch rock climbing route on Cascade Mountain in Banff. Beautiful views of the Bow Valley."
+		},
+		{
+			"title": "Le Soulier",
+			"lat": 51.176667,
+			"long": -115.554167,
+			"activity": 2,
+			"description": "Short & sweet climb on Tunnel Mountain. Great views of the Banff Springs hotel."
 		},
 		{
 			"title": "Charlevoix Traverse",
