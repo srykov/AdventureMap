@@ -17,7 +17,8 @@ function createAdventureMarker(adventure){
 		position: {lat: adventure.lat, lng: adventure.long},
 		title: adventure.title,
 		icon: adventure.getIcon(),
-		map: map
+		map: map,
+		animation: google.maps.Animation.BOUNCE
 	});
 
 	marker.addListener('click', function() {
