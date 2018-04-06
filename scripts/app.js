@@ -1,5 +1,5 @@
 var map, infowindow;
-const dataUrl = 'https://cdn.rawgit.com/srykov/e90c49c118dcef6928c255d8dd01f6fb/raw/2d466766390cdfc8d453e5416a5553498cd53157/adventures.json';
+const dataUrl = 'https://rawgit.com/srykov/AdventureMap/master/adventures.json';
 
 //parse JSON results and return a matching array of Adventure objects
 function getAdventures(data){
@@ -28,8 +28,8 @@ function createAdventureMarker(adventure){
 
 function initMap() {
 	map = new google.maps.Map(document.getElementById('map'), {
-  		center: {lat: 46.342982, lng: -72.542072},
-  		zoom: 7
+  		center: {lat: 57.454166, lng: -96.921118},
+  		zoom: 6
 	});
 
   	infowindow = new google.maps.InfoWindow({

@@ -1,3 +1,4 @@
+//This class parses represents an individual adventure. Used to encapsulate data from JSON file.
 class Adventure {
 	constructor(title, lat, long, type, description){
 		this.title = title;
@@ -31,7 +32,7 @@ class Adventure {
 			case 3:
 				return 'Cycling';
 			case 4:
-				return 'Cross Country Skiing';
+				return 'Paddling';
 		}
 	}
 }
